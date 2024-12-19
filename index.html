@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Juego de adivinar el número</title>
+</head>
+
+<body>
+	<h1>Adivina el número</h1>
+	<p>Introduce un número entre 1 y 100:</p>
+	<input type="number" id="numeroEntrada">
+	<button id="boton" onclick="comprobar();">Comprobar</button>
+	<p id="mensaje">A Jugar!!!!</p>
+	<h4>Cantidad de intentos: <p id="intento">0</p>
+	</h4>
+	<br><br>
+	<h1>Sorteo Navideño</h1>
+	<h3>Introduce del máximo de numeros a sortear</h3>
+	<input type="number" id="sorteo">
+	<h3>Introduce el número de ganadores</h3>
+	<input type="number" id="premios">
+	<br><br>
+	<button onclick="sorteo();">Seleccionar Ganadores</button>
+	<br><br>
+	<div>
+		<table id="resultado"></table>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
